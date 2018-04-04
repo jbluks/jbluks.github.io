@@ -1,0 +1,44 @@
+.header {
+  background-image: url('../images/header-background.jpg');
+  background-size: cover;
+  position: relative;
+  min-height: 300px;
+}
+
+.heading, h2 {
+  color: blue;
+}
+
+.heading {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bs-navbar {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8)
+}
+
+.navLinks > div  {
+  line-height: 30px;
+  color: blue;
+}
+
+.navLinks > div:hover {
+  color: lightblue;
+}
+
+section {
+  border: solid 1px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  min-height: 100px;
+  margin: 5px 5px;
+}
